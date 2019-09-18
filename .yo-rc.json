@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "gds.quanxian",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "quanxian",
+    "packageName": "gds.quanxian",
+    "packageFolder": "gds/quanxian",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTI0ZjU5NWM3NjEwNGY2ZmRmZTI1ZWNjYzIzNzYyYzc4YTFiNmE2ZGM4YzQ4NzBhN2M0Yzg1OTFiY2E1MDJiNDQ1YjhlOWZiYTBmZDE2NjFhZGQxOTU3NDE4NTQ4NzYwOWNjNmVkMjNlNGJhZmNlOWJiYWZhZDczMDJjYTE1MWY=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "simplex",
+    "clientThemeVariant": "primary",
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": ["zh-cn", "en"]
+  }
+}
