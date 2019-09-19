@@ -43,6 +43,18 @@ public class CacheConfiguration {
             createCache(cm, gds.quanxian.domain.User.class.getName());
             createCache(cm, gds.quanxian.domain.Authority.class.getName());
             createCache(cm, gds.quanxian.domain.User.class.getName() + ".authorities");
+            createCache(cm, gds.quanxian.domain.Region.class.getName());
+            createCache(cm, gds.quanxian.domain.Country.class.getName());
+            createCache(cm, gds.quanxian.domain.Location.class.getName());
+            createCache(cm, gds.quanxian.domain.Department.class.getName());
+            createCache(cm, gds.quanxian.domain.Department.class.getName() + ".employees");
+            createCache(cm, gds.quanxian.domain.Task.class.getName());
+            createCache(cm, gds.quanxian.domain.Task.class.getName() + ".jobs");
+            createCache(cm, gds.quanxian.domain.Employee.class.getName());
+            createCache(cm, gds.quanxian.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, gds.quanxian.domain.Job.class.getName());
+            createCache(cm, gds.quanxian.domain.Job.class.getName() + ".tasks");
+            createCache(cm, gds.quanxian.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
