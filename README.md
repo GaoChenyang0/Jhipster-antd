@@ -169,3 +169,6 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [protractor]: https://angular.github.io/protractor/
 [leaflet]: http://leafletjs.com/
 [definitelytyped]: http://definitelytyped.org/
+# Jhipster-antd
+react+redux+antd+typescript
+>>>>>>> 63bee9979292b715e01080db0ca80d457169790d
