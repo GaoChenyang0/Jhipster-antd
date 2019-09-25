@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Link, RouteComponentProps } from 'react-router-dom';
 import { IRootState } from 'app/shared/reducers';
 import { getSearchEntities, getEntities } from './country.reducer';
-import '../../../../../../node_modules/antd/dist/antd.css';
 import { Input, Button, Table, Form } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './country.css';

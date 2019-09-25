@@ -5,7 +5,8 @@ import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 
 import Job from './job';
 import JobDetail from './job-detail';
-import JobUpdate from './job-update';
+import JobUpdate from './new-job-update';
+// import JobUpdate from './job-update';
 import JobDeleteDialog from './job-delete-dialog';
 
 const Routes = ({ match }) => (

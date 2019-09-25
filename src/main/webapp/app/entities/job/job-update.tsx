@@ -61,7 +61,6 @@ export class JobUpdate extends React.Component<IJobUpdateProps, IJobUpdateState>
         ...values,
         tasks: mapIdList(values.tasks)
       };
-
       if (this.state.isNew) {
         this.props.createEntity(entity);
       } else {

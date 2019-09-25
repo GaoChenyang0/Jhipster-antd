@@ -11,6 +11,7 @@ import { clearAuthentication } from './shared/reducers/authentication';
 import ErrorBoundary from './shared/error/error-boundary';
 import AppComponent from './app';
 import { loadIcons } from './config/icon-loader';
+import '../../../../node_modules/antd/dist/antd.css';
 
 const devTools = process.env.NODE_ENV === 'development' ? <DevTools /> : null;
 
